@@ -40,3 +40,12 @@
 # This is viewable in pgAdmin if you right-click [Table_name]>>Properties...>>Columns
 # The Properties box also allows you to change whether a field is allowed to be null, or 
 # set a column as a Primary Key. I made note of this as it will be helpful later.
+
+# My next step was importing the data from the CSV files.
+# I right clicked [Insert_table_name]>>Import/Export
+# In the Import/Export window I toggled the Import/Export option to Import
+# In the Filename field I clicked on the ... went to where the CSV files are stored in my
+# local repository and selected the csv that corresponded to the table that we were importing
+# the data for. Then I clicked "Create"
+# At the bottom of the Import/Export window I toggled the Header option to Yes and selected 
+# "," from the list in the Delimiter field. Finally I clicked "OK" and the data was imported.
